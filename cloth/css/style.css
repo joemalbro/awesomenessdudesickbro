@@ -1,0 +1,49 @@
+* {
+    margin: 0;
+    overflow: hidden;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    -o-user-select: none;
+    user-select: none;
+}
+
+@keyframes example {
+    0%   {background-color: red;}
+    10%  {background-color: yellow;}
+    20%  {background-color: blue;}
+    30% {background-color: green;}
+    40% {background-color: purple;}
+    50% {background-color: teal;}
+    60% {background-color: orange;}
+    70% {background-color: burgundy;}
+    80% {background-color: light blue;}
+    90% {background-color: red ;}
+}
+
+   
+body {
+    cursor: none;
+   background-color: red;
+    animation-name: example;
+    animation-duration: 60s;
+  animation-iteration-count:infinite
+
+  
+}
+#c {
+
+    margin: 0 0 0;
+}
+/* 
+#top {
+    background: #fff;
+    width: 100%;
+    height: auto;
+    position: relative;
+    border-bottom: 1px solid #eee;
+}
+ */
+
+
+
